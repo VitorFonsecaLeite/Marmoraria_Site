@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+/*configuração da section conteudo*/
+section#conteudo{
+    width: 1000px;
+    margin: auto;
+}
+
+/*configuração da janela latera Iframe*/
+iframe#frame-spec{
+    width: 400px;
+    height: 280px;
+}
+
+iframe#frame-spec::-webkit-scrollbar{
+    display: none;
+}

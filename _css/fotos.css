@@ -1,0 +1,70 @@
+@charset "utf-8";
+/*Configuração do corpo 01*/
+section#corpo-01{
+    display: block;
+    border: blue ;
+    padding: 10px;
+    height: 530px;
+    margin-left: 55px;
+    margin-right: 55px;
+}
+/*Configuração da seção primaria 01*/
+section#primaria-01{
+    display: block;
+    height: 530px;
+    width: 640px;
+    border: 5px solid rgb(241, 241, 241);
+    background-color: #ffffff;
+    box-shadow: 1px 1px 3px rgba(0,0,0, .5) ;
+    float: center;
+    border-left: auto;
+    border-top: auto;
+    margin-bottom: -10px;
+}
+/*configuração da imagem em destaque*/
+img#destaque{
+    margin-left: 40px;
+    margin-top: 5px;
+    float:unset;
+}
+
+/*Configuraçõa da Lista "Secundaria 01" UL*/
+ul#secundaria-01{
+    display: solid;
+    list-style: none;
+    position: relative;
+    width: 550px;
+    margin-left:20px ;
+    margin-top: auto;
+    padding: center;
+    overflow: hidden;
+    list-style: none;
+    border: black  ;
+    
+}
+/*Configuração das molduras da lista "Secundaria 01" IL*/
+ul#secundaria-01 li {
+    float: left;
+    width: 80px;
+    height: 80px;
+    margin: 5px;
+    border: 5px solid rgb(241, 241, 241);
+    background-color: #ffffff;
+    box-shadow: 1px 1px 3px rgba(0,0,0, .5) ;
+}
+/*Configuração para colocar as fotos de plano de fundo*/
+ul#secundaria-01 li#foto01{
+    background-image: url("../_imagens/coxinha-completa/01_pequena.png") ; 
+}
+ul#secundaria-01 li#foto02{
+    background-image: url("../_imagens/coxinha-completa/02_pequena.png") ; 
+}
+ul#secundaria-01 li#foto03{
+    background-image: url("../_imagens/coxinha-completa/03_pequena.png") ; 
+}
+ul#secundaria-01 li#foto04{
+    background-image: url("../_imagens/coxinha-completa/04_pequena.png") ; 
+}
+ul#secundaria-01 li#foto05{
+    background-image: url("../_imagens/coxinha-completa/05_pequena.png") ; 
+}
