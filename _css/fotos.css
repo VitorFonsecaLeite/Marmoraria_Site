@@ -1,15 +1,15 @@
 @charset "utf-8";
-/*Configuração do corpo 01*/
-section#corpo-01{
+/*Configuração dos corpos das sections*/
+section.corpoModelo{
     display: block;
-    border: blue ;
+    border: blue solid;
     padding: 10px;
     height: 530px;
     margin-left: 55px;
     margin-right: 55px;
 }
 /*Configuração da seção primaria 01*/
-section#primaria-01{
+section.primarioModelo{
     display: block;
     height: 530px;
     width: 640px;
@@ -21,15 +21,15 @@ section#primaria-01{
     border-top: auto;
     margin-bottom: -10px;
 }
-/*configuração da imagem em destaque*/
-img#destaque{
+/*configuração das imagens em destaque*/
+img.destaque{
     margin-left: 40px;
     margin-top: 5px;
     float:unset;
 }
 
-/*Configuraçõa da Lista "Secundaria 01" UL*/
-ul#secundaria-01{
+/*Configuraçõa das Listas "Secundarias" UL*/
+ul.secundaria{
     display: solid;
     list-style: none;
     position: relative;
@@ -42,8 +42,8 @@ ul#secundaria-01{
     border: black  ;
     
 }
-/*Configuração das molduras da lista "Secundaria 01" IL*/
-ul#secundaria-01 li {
+/*Configuração das molduras das lista "Secundarias" IL*/
+ul.secundaria li {
     float: left;
     width: 80px;
     height: 80px;
@@ -52,7 +52,7 @@ ul#secundaria-01 li {
     background-color: #ffffff;
     box-shadow: 1px 1px 3px rgba(0,0,0, .5) ;
 }
-/*Configuração para colocar as fotos de plano de fundo*/
+/*Configuração para colocar as fotos em miniatura " 01 "*/
 ul#secundaria-01 li#foto01{
     background-image: url("../_imagens/coxinha-completa/01_pequena.png") ; 
 }
@@ -67,4 +67,35 @@ ul#secundaria-01 li#foto04{
 }
 ul#secundaria-01 li#foto05{
     background-image: url("../_imagens/coxinha-completa/05_pequena.png") ; 
+}
+
+/*Configuração para colocar as fotos em miniatura " 02 "*/
+ul#secundaria-02 li#foto01{
+    background-image: url("../_imagens/churrasqueira-completa/01_pequena.png") ; 
+}
+ul#secundaria-02 li#foto02{
+    background-image: url("../_imagens/churrasqueira-completa/02_pequena.png") ; 
+}
+ul#secundaria-02 li#foto03{
+    background-image: url("../_imagens/churrasqueira-completa/03_pequena.png") ; 
+}
+ul#secundaria-02 li#foto04{
+    background-image: url("../_imagens/churrasqueira-completa/04_pequena.png") ; 
+}
+
+/*Configuração para colocar as fotos em miniatura " 03 "*/
+ul#secundaria-03 li#foto01{
+    background-image: url("../_imagens/churrasqueira-completa-02/01_pequena.png") ; 
+}
+ul#secundaria-03 li#foto02{
+    background-image: url("../_imagens/churrasqueira-completa-02/02_pequena.png") ; 
+}
+ul#secundaria-03 li#foto03{
+    background-image: url("../_imagens/churrasqueira-completa-02/03_pequena.png") ; 
+}
+ul#secundaria-03 li#foto04{
+    background-image: url("../_imagens/churrasqueira-completa-02/04_pequena.png") ; 
+}
+ul#secundaria-03 li#foto05{
+    background-image: url("../_imagens/churrasqueira-completa-02/05_pequena.png") ; 
 }
