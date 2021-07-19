@@ -1,27 +1,33 @@
 @charset "utf-8";
-/*Configuração da tag div*/
-div#tv-radio {
-    width: 900px;
-    height: 580px;
-    margin: auto;
-    background: url("../_imagens/radio-tv.png") no-repeat;
+
+/*Configuração da seção de video primaia */
+section.corpoVideo{
+    border: 5px solid rgb(241, 241, 241);
+    background-color: #ffffff;
+    box-shadow: 1px 1px 3px rgba(0,0,0, .5) ;
+    height: 400px;
+    width: 800px;
+    margin-left: 250px;
+    margin-top: 25px;
 }
 
-/*Configuração do arquivo de audio*/
-audio#musica {
-    display: block;
-    position: relative;
-    left:575px ;
-    top:488px ;
-    width: 300px;
+/*Configuração da seção de descrição */
+section.descricaoVideo{
+    border:  red;
+    background-color:rgb(241, 241, 241);
+    height: 100px;
+    width: 800px;
+    margin-left: auto;
+    margin-top: -16px;
 }
 
-/*Configuração do arquivo de video*/
-video#filme {
-    display: block;
-    position: relative;
-    left:82px ;
-    top:50px ;
-    width: 450px;
-    height: 500;
+/*Configuração do player de video */
+video.playVideo{
+    border: 5px solid rgb(212, 211, 211, 4);
+    height: 270px;
+    width: 490px;
+    margin-left: 150px;
+    margin-top: 10px;
+   
 }
+

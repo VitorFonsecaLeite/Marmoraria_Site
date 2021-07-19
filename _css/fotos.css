@@ -2,11 +2,23 @@
 /*Configuração dos corpos das sections*/
 section.corpoModelo{
     display: block;
-    border: blue solid;
     padding: 10px;
     height: 530px;
     margin-left: 55px;
     margin-right: 55px;
+    margin-bottom: 10px;
+}
+/*Configuração da descrição*/
+section.descricaoModelo{
+    display: block;
+    height: 530px;
+    width: 520px;
+    border: 5px solid rgb(241, 241, 241);
+    background-color: #ffffff;
+    box-shadow: 1px 1px 3px rgba(0,0,0, .5) ;
+    float: right;
+    border: auto;
+    
 }
 /*Configuração da seção primaria 01*/
 section.primarioModelo{
